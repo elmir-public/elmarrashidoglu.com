@@ -1,0 +1,502 @@
+.header-fixed {
+    transition: .4s ease all;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: rgba(0, 0, 0, .85);
+    z-index: 999;
+
+}
+
+.header-fixed .navbar-change {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-name {
+    font-family: "Avenir Next", sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    letter-spacing: 6px;
+    color: #efd799;
+    transition: .4s ease all;
+}
+
+.navbar-name:hover {
+    color: white;
+    letter-spacing: 5.5px;
+    transition: .4s  ease all;
+}
+
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(201,168,82, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.nav-in {
+    font-family: "Avenir Next", sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    letter-spacing: 4px;
+    color: white;
+    transition: .3s ease all;
+}
+
+.nav-in:hover {
+    color: #efd799;
+    transition: .3s ease all;
+}
+.nav-in:focus {
+    color: #efd799;
+}
+
+.nav-in:focus-visible {
+    box-shadow: none;
+    border:none;
+}
+
+.menu-list li+li {
+    padding-left: 30px;
+}
+
+.nav-fav-footer {
+    padding-top: 3px;
+
+}
+.nav-fav svg path {
+    transition: .3s ease all;
+}
+.nav-fav svg:hover path {
+    fill: #efd799;
+    transition: .3s ease all;
+}
+
+.nav-footer-list {
+    list-style: none;
+    display: flex;
+    padding-left: 2px;
+    padding-top: 15px;
+}
+
+.nav-footer-list li+li {
+    padding-left: 25px;
+}
+
+.videodiv  {
+    position: relative;
+margin-bottom: -6px;
+}
+.videodiv:before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.videodiv:after {
+    content: "WE CARE ABOUT YOUR HAPPINESS";
+    position: absolute;
+    font-family: "Avenir Next",sans-serif;
+    font-weight: 100;
+    text-align: center;
+    color: white;
+    z-index: 111;
+    font-size: 72px;
+    left: 0;
+    right: 0;
+    top: 40%;
+}
+
+.videodiv-1, .videodiv-2 {
+    position: relative;
+    background-color: black;
+}
+.videodiv-1:before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.videodiv-2:before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.videodiv-1-text {
+    padding: 90px 0;
+    font-family:"Avenir Next",sans-serif;
+    font-weight: 100;
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    transition: .4s ease all;
+}
+
+.clients-head-text {
+    padding: 80px 0 20px 0;
+    font-family:"Avenir Next",sans-serif;
+    font-weight: 100;
+    color: black;
+    font-size: 48px;
+    text-align: center;
+}
+
+
+.middle-black {
+    padding: 60px 0;
+}
+
+.head-name {
+    font-family: "Avenir Next", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.head-p {
+    font-family: "Avenir Next", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
+    letter-spacing: 2px;
+    padding-bottom: 0;
+    padding-top: 10px;
+}
+
+.head-p-a {
+    font-family: "Avenir Next", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 22px;
+    color: #b2aeae;
+
+}
+
+.head-p-more {
+    margin: 0;
+}
+
+.head-p-more a {
+    font-family: "Times New Roman", sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    transition: .3s ease all;
+}
+
+.head-p-more a:hover {
+    color: #efd799;
+    transition: .3s ease all;
+}
+
+.card-service {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-service a {
+    text-decoration: none;
+    color: black;
+}
+
+.card-service a svg path {
+    transition: .4s ease all;
+    fill: #c9a852;
+}
+
+.card-service a svg:hover path {
+    fill: #000;
+    transition: .4s ease all;
+}
+
+.card-head {
+    font-family: "Avenir Next", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 18px;
+    margin: 0;
+}
+
+.services {
+    padding: 80px 0;
+    background-color: #ececec;
+}
+
+.owl-pictures {
+
+}
+
+.footer-main {
+    padding-top: 60px;
+    background-color: black;
+}
+
+.footer-head {
+    font-family: "Avenir Next", sans-serif;
+    font-weight: 200;
+    color: white;
+    font-size: 37px;
+    margin: 0;
+}
+
+.footer-info {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.footer-info-list {
+    font-family:"Avenir Next", sans-serif;
+    font-size: 18px;
+    color: white;
+    font-weight: 100;
+}
+
+.footer-info a {
+    text-decoration: none;
+    color: white;
+    font-family:"Avenir Next", sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.form-contact .form-group input, .form-contact .form-group textarea {
+    font-family: "Avenir Next", sans-serif;
+    font-style: italic;
+    padding: 10px;
+    background: #000;
+    color: white;
+    border: 1px solid white;
+    border-radius: 0;
+    width: 100%;
+}
+
+.form-contact .form-group input:focus {
+    box-shadow: none;
+}
+
+.btn-sub {
+    font-family: "Avenir Next",sans-serif;
+    font-weight: 100;
+    border-radius: 0;
+    width: 50%;
+    transition: .4s ease all;
+}
+
+.btn-sub:hover {
+    font-weight: 500;
+    transition: .4s ease all;
+}
+
+.reserved {
+    font-family: "Avenir Next",sans-serif;
+    font-weight: 300;
+    color: #6c6b6b;
+    text-align: end;
+    padding-top: 30px;
+}
+
+.right-section {
+    padding-top: 100px;
+}
+
+.right-section img {
+    width: 60%;
+    filter: grayscale(0.5);
+    opacity: 0.9;
+}
+
+.left-section-text {
+    font-family: "Avenir Next", sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+    border: 10px solid #bebe3e;
+    padding: 30px;
+}
+
+
+.bio-name {
+    position: relative;
+    font-family: "Avenir Next", sans-serif;
+    font-weight: 400;
+    color: white;
+    border-bottom: 1px solid white;
+    width: 21%;
+    margin-bottom: 150px;
+}
+
+.bio-name:after {
+    position: absolute;
+    content: "ABOUT ME";
+    font-family: "Avenir Next", sans-serif;
+    font-size: 32px;
+    color: white;
+    font-weight: 400;
+    transform: rotate(180deg);
+    top: 40px;
+    right: 0px;
+}
+
+.btn-reserve {
+    background-color: transparent;
+    border: none;
+}
+
+.frame-header {
+    text-align: center;
+    font-family: "Avenir Next", sans-serif;
+    font-weight: 100;
+    color: white;
+}
+
+.contact-form .form-group input {
+    font-family: "Avenir Next", sans-serif;
+    background: black;
+    color: white;
+    border-radius: 0px;
+}
+
+.form-control:focus {
+    border-color: white;
+    box-shadow: none;
+}
+
+.form-control::placeholder {
+    font-family: "Avenir Next",sans-serif;
+    font-weight: 100;
+}
+
+.form-group textarea {
+    background: black;
+    font-family: "Avenir Next", sans-serif;
+    font-weight: 100;
+    border-radius: 0px;
+}
+
+
+.form-group textarea:focus {
+    background: black;
+    color: white;
+}
+
+.btn-submit {
+    background: black;
+    font-family: "Avenir Next", sans-serif;
+    font-weight: 100;
+    color: white;
+    transition: .4s ease all;
+    border-radius: 0;
+}
+
+.btn-submit:hover {
+    background-color: white;
+    color: black;
+    transition: .4s ease all;
+
+}
+
+.item {
+    width: 150px;
+    height: 150px;
+    margin: 30px;
+    border: 1px solid black;
+    padding: 5px;
+    cursor: pointer;
+    transition: .4s ease all;
+}
+
+.item:hover {
+    border-radius: 30px;
+    transition: .4s ease all;
+    transform: translate(0, -10px);
+}
+.item img {
+    width: 100%;
+    transition: .4s ease all;
+
+}
+
+.item:hover img {
+    border-radius: 30px;
+    transition: .4s ease all;
+
+
+}
+
+
+
+/*.contact-form .form-group input:focus {*/
+/*    box-shadow: none;*/
+/*}*/
+/*Media*/
+
+@media (max-width: 1399.98px) {
+    .videodiv:after {
+        font-size: 56px;
+    }
+
+    .videodiv-1-text {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .videodiv::after {
+        top: 90px;
+        font-size: 48px;
+    }
+
+    .custom-toggler {
+        padding: 0;
+    }
+
+    .menu-list li+li {
+        padding-left: 0;
+    }
+    
+    .services {
+        display: none;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .video-first {
+        object-fit: cover;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+    }
+
+}
